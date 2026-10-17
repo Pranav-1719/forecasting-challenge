@@ -1,0 +1,23 @@
+# Environment and packaging
+.venv/
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Testing and caches
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter & Editor caches
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Challenge release data archives (per SUBMISSION.md repository hygiene)
+data-v1.tar.gz
+challenge_data/*.csv.gz
+challenge_data/*.csv
